@@ -1,0 +1,103 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .section1{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_209c4e50a1.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .section2{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/DESKTOP_HOMEPAGE_091c26421c.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  
+    .section3{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp);
+      background-size: cover;
+      background-position: center;
+  }
+   .section4{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/S20_Chopstick_Stack_Desktop_0c016b49ec.webp);
+      background-size: cover;
+      background-position: center;
+  }
+ .nav-area {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: top .6s;
+    z-index: 99;
+    
+  } 
+  
+  .nav-area img {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .footer-text{
+    
+    font-size: small;
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .footer-text ul {
+    list-style-type: none;
+    margin-left: 20%;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .footer-text li {
+    float: left;
+  }
+  
+  .footer-text li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* .footer-text li a:hover {
+    background-color: #111111;
+  } */
